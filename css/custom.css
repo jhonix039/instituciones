@@ -1,0 +1,42 @@
+:root{
+    --primary: #05143a;
+    --bs-btn-color: #25D366;
+}
+
+.relleno{
+    padding-bottom: 60px!important;
+}
+
+.whatsapp{
+    background-color: #25D366;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.whatsapp:hover{
+    background-color: #ff00fe;
+    color: #fff
+}
+.bedlab, .steri, .opc{
+    margin-bottom: 80px;
+}
+.corporativo{
+    background-color: #000248;
+    color: #fff;
+    padding: 10px 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.corporativo:hover{
+    background-color: #ff00fe;
+    color: #fff;
+}
+#header .header-nav.header-nav-links nav > ul > li > a, #header .header-nav.header-nav-links nav > ul > li:hover > a, #header .header-nav.header-nav-line nav > ul > li > a, #header .header-nav.header-nav-line nav > ul > li:hover > a{
+    font-size: 16px!important;
+}
+.color-corporativo{
+    background-color: #000248!important;
+}
+.text-slider{
+    margin-top: 150px;
+}
