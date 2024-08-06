@@ -8,7 +8,7 @@
 }
 
 .whatsapp{
-    background-color: #25D366;
+    background-color: #00b7ff;
     text-decoration: none;
     color: white;
     padding: 10px 15px;
@@ -19,7 +19,7 @@
     color: #fff
 }
 .bedlab, .steri, .opc{
-    margin-bottom: 80px;
+    margin-bottom: 10px;
 }
 .corporativo{
     background-color: #000248;
@@ -39,4 +39,11 @@
 }
 .text-slider{
     margin-top: 150px;
+}
+.nosotros{
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+.descargas{
+    padding-bottom: 70px;
 }
