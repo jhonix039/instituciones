@@ -6,6 +6,9 @@
 .relleno{
     padding-bottom: 60px!important;
 }
+.catalogo:hover{
+    background-color: #ff00fe!important;
+}
 
 .whatsapp{
     background-color: #00b7ff;
