@@ -47,6 +47,44 @@
 
 		<!-- flaticon -->
 		<link href="/vendor/node_modules/@flaticon/flaticon-uicons/css/all/all.css" rel="stylesheet">
+		
+		<!-- Revslider -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+		<link rel='stylesheet' id='sr7css-css' href='public/css/sr7.css' media='all' />
+
+		<script src="public/js/libs/tptools.js" id="_tpt-js" async></script>
+		<script src="public/js/sr7.js" id="sr7-js" async></script>
+		<script src="public/js/page.js" id="sr7-page-js" async></script>
+		<script>
+			window._tpt			??= {};
+			window.SR7			??= {};
+			_tpt.R				??= {};
+			_tpt.R.fonts		??= {};
+			_tpt.R.fonts.customFonts??= {};
+			SR7.devMode			=  false;
+			SR7.F 				??= {};
+			SR7.G				??= {};
+			SR7.LIB				??= {};
+			SR7.E				??= {};
+			SR7.E.gAddons		??= {};
+			SR7.E.php 			??= {};
+			SR7.E.nonce			= 'e6118f495d';
+			SR7.E.ajaxurl		= '';
+			SR7.E.resturl		= '';
+			SR7.E.slug_path		= 'revslider/revslider.php';
+			SR7.E.slug			= 'revslider';
+			SR7.E.plugin_url	= '';
+			SR7.E.wp_plugin_url = '';
+			SR7.E.revision		= '6.7.16';
+			SR7.E.fontBaseUrl	= '//fonts.googleapis.com/css2?family=';
+			SR7.G.breakPoints 	= [1240,1024,778,480];
+			SR7.E.modules 		= ['module','page','slide','layer','draw','animate','srtools','canvas','defaults','carousel','navigation','media','modifiers'];
+			SR7.E.libs 			= ['WEBGL'];
+			SR7.E.css 			= ['csslp','cssbtns','cssfilters','cssnav','cssmedia'];
+			SR7.E.resources		= {};
+			SR7.JSON			??= {};
+		</script>
 
 	</head>
 	<body>
@@ -99,7 +137,7 @@
 							<div class="header-column header-column-logo">
 								<div class="header-row">
 									<div class="header-logo">
-										<a href="demo-medical-2.html">
+										<a href="#">
 											<img alt="Logo Líneas Hospitalarias" width="250" height="60" src="img/lh/logo-lh.png">
 										</a>
 									</div>
@@ -141,32 +179,24 @@
 			</header>
 
 			<div role="main" class="main" id="inicio">
-				<section class="section section-funnel border-0 m-0 p-0">
-					<div class="owl-carousel-wrapper" style="height: 991px;">
-						<div class="owl-carousel dots-inside dots-horizontal-center custom-dots-style-1 show-dots-hover show-dots-xs nav-style-1 nav-inside nav-inside-plus nav-dark nav-lg nav-font-size-lg show-nav-hover mb-0" data-plugin-options="{'responsive': {'0': {'items': 1, 'dots': true, 'nav': false}, '479': {'items': 1, 'dots': true}, '768': {'items': 1, 'dots': true}, '979': {'items': 1}, '1199': {'items': 1}}, 'loop': false, 'autoHeight': false, 'margin': 0, 'dots': true, 'dotsVerticalOffset': '-250px', 'nav': false, 'animateIn': 'fadeIn', 'animateOut': 'fadeOut', 'mouseDrag': false, 'touchDrag': false, 'pullDrag': false, 'autoplay': true, 'autoplayTimeout': 7000, 'autoplayHoverPause': true, 'rewind': true}">
-
-							<!-- Carousel Slide 1 -->
-							<div class="position-relative overflow-hidden pb-5">
-								<div class="background-image-fuid position-absolute top-0 left-0 right-0 bottom-0" data-appear-animation="kenBurnsToLeft" data-appear-animation-duration="5s" data-plugin-options="{'minWindowWidth': 0}" data-carousel-onchange-show style="background-image: url(img/lh/banner2.png); background-size: cover; background-position: center;">									
-								</div>
-								<div class="background-image-fuid position-absolute top-0 left-0 right-0 bottom-0 d-block d-sm-none" data-appear-animation="kenBurnsToLeft" data-appear-animation-duration="5s" data-plugin-options="{'minWindowWidth': 0}" data-carousel-onchange-show style="background-image: url(img/lh/cel.png); background-size: cover; background-position: center;">									
-								</div>
-								<div class="container position-relative text-slider z-index-3 pb-5 h-100">
-									<div class="row align-items-center pb-5 h-100">
-										<div class="col-md-10 col-lg-6 text-center text-md-end pb-5 ms-auto">
-											<h1 class="text-color-light font-weight-bold text-10 line-height-2 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">Tu Aliado Estratégico <br> en Mobiliario, Productos Ortopédicos e Insumos Médicos</h1>
-											<div>
-												<a href="https://api.whatsapp.com/send?phone=573209180164&text=Soy%20empresa." class="btn whatsapp btn-modern font-weight-semibold text-3 btn-py-3 px-5 appear-animation my-2 text-decoration-none" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" data-plugin-options="{'minWindowWidth': 0}"><i class="fa-regular fa-building"></i> <span class="fs-6 text-transform-none">Soy Empresa/Institución</span></a>
-
-												<a href="https://api.whatsapp.com/send?phone=+573209180164&text=Soy%20personal%20de%20salud." class="btn corporativo btn-modern font-weight-semibold text-3 btn-py-3 px-5 appear-animation text-decoration-none" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" data-plugin-options="{'minWindowWidth': 0}"><i class="fa-solid fa-user-doctor"></i> <span class="fs-6 text-transform-none">Soy personal de la salud </span></a> 
-											</div>											
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>	
+				
+				<p class="rs-p-wp-fix"></p>
+				<sr7-module data-alias="slider-4" data-id="13" id="SR7_13_1" class="rs-ov-hidden" data-version="6.7.16">
+					<sr7-adjuster></sr7-adjuster>
+					<sr7-content>
+						<sr7-slide id="SR7_13_1-63" data-key="63">
+							<sr7-txt id="SR7_13_1-63-1" class="sr7-layer">Agenda Hoy Mismo Asesoría<br />
+Personalizada</sr7-txt>
+							<a id="SR7_13_1-63-2" class="sr7-layer" href="https://api.whatsapp.com/send?phone=573209180164&#038;text=Soy%20empresa." target="_blank">Soy Empresa / Institución</a>
+							<a id="SR7_13_1-63-3" class="sr7-layer" href="https://api.whatsapp.com/send?phone=+573209180164&#038;text=Soy%20personal%20de%20salud." target="_blank">Soy Personal de Salud</a>
+						</sr7-slide>
+						<sr7-slide id="SR7_13_1-64" data-key="64">
+						</sr7-slide>
+					</sr7-content>
+				</sr7-module>
+				<script>
+					SR7.PMH ??={}; SR7.PMH["SR7_13_1"] = {cn:0,state:false,fn: function() { if (_tpt!==undefined && _tpt.prepareModuleHeight !== undefined) {  _tpt.prepareModuleHeight({id:"SR7_13_1",el:[740,740,740,740,320],type:'standard',shdw:'0',gh:[740,740,740,740,320],gw:[2350,2350,2350,2350,480],vpt:['100px&#039;,&#039;100px&#039;,&#039;100px&#039;,&#039;100px&#039;,&#039;100px'],size:{fullWidth:true, fullHeight:false},mh:'0',onh:0,onw:0,bg:{color:'{"orig":"transparent","type":"solid","string":"transparent"}'}});   SR7.PMH["SR7_13_1"].state=true;} else if((SR7.PMH["SR7_13_1"].cn++)<100)	setTimeout( SR7.PMH["SR7_13_1"].fn,19);}};SR7.PMH["SR7_13_1" ].fn();
+				</script>
 				<br>			
 				<section>
 					<div class="container" id="contacto">
@@ -197,7 +227,7 @@
 							<div class="col-lg-6 col-md-12 col-sm-12 z-index-1 mb-5">
 								<div class="card border-0 border-radius-0 bg-color-light box-shadow-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
 									<div class="card-body p-5 relleno d-flex flex-column">
-										<h3 class="font-weight-bold text-color-quaternary mx-5 text-capitalize">Contactanos</h3>
+										<h3 class="font-weight-bold text-color-quaternary mx-5 text-capitalize">Contáctanos</h3>
 										<a href="https://api.whatsapp.com/send?phone=573209180164&text=Soy%20empresa." class="bnt whatsapp m-1 p-3 text-decoration-none"><i class="fa-regular fa-building fa-2x mx-2"></i> <span class="fs-6 text-transform-none">Soy Empresa/Institución</span></a>
 										<a href="https://api.whatsapp.com/send?phone=+573209180164&text=Soy%20personal%20de%20salud." class="bnt corporativo m-1 p-3 text-decoration-none"><i class="fa-solid fa-user-doctor fa-2x mx-2"></i> <span class="fs-6 text-transform-none">Soy personal de la salud </span></a>										
 									</div>
@@ -447,6 +477,16 @@
 
 		<!-- Theme Initialization Files -->
 		<script src="js/theme.init.js"></script>
+
+		<!-- Revslider -->
+		<script>
+			SR7.JSON['SR7_13_1'] = 'assets/SR7_13_1.json';
+			if (SR7.F.init) SR7.F.init(); // DOUBLE CALL NOT A PROBLEM, MANAGED IN INIT
+			document.addEventListener('DOMContentLoaded', function() {if (SR7.F.init) SR7.F.init(); else SR7.shouldBeInited = true;});
+			window.addEventListener('load', function() {if (SR7.F.init) SR7.F.init(); else SR7.shouldBeInited = true; });
+			SR7.E.v6v7ids ??= {}
+			SR7.E.v6v7ids = JSON.parse('{\"n\":{\"53\":63},\"s\":{\"12\":64}}');
+		</script>
 
 	</body>
 </html>
