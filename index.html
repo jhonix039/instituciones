@@ -184,7 +184,8 @@
 					<sr7-content>
 						<sr7-slide id="SR7_13_1-63" data-key="63">
 							<sr7-txt id="SR7_13_1-63-1" class="sr7-layer">Agenda Hoy Mismo Asesoría<br />Personalizada</sr7-txt>
-							<a id="SR7_13_1-63-2" class="sr7-layer" href="https://api.whatsapp.com/send?phone=573209180164&text=Hola,%20soy%20una%20instituci%C3%B3n%20me%20interesa%20adquirir%20sus%20productos." target="_blank">Soy Empresa / Institución</a>
+							<a id="SR7_13_1-63-2" class="sr7-layer" data-bs-toggle="modal" data-bs-target="#formModal">Soy Empresa / Institución</a>
+							<!-- <a id="SR7_13_1-63-2" class="sr7-layer" href="https://api.whatsapp.com/send?phone=573209180164&text=Hola,%20soy%20una%20instituci%C3%B3n%20me%20interesa%20adquirir%20sus%20productos." target="_blank">Soy Empresa / Institución</a> -->
 							<a id="SR7_13_1-63-3" class="sr7-layer" href="https://api.whatsapp.com/send?phone=573005540117&text=Hola,%20soy%20personal%20de%20salud%20me%20interesa%20adquirir%20sus%20productos." target="_blank">Soy Personal de Salud</a>
 						</sr7-slide>
 						<sr7-slide id="SR7_13_1-64" data-key="64">
@@ -304,8 +305,52 @@
 							</div>
 						</div>
 					</div>
-
-				</div>			
+				</div>
+				<div class="col-sm-9">
+					<div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="defaultModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h4 class="modal-title" id="defaultModalLabel">Formulario Contacto</h4>
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+								</div>								
+								<form class="m-5" id="ID_FORM_WEB">
+									<label for="nombre-cliente" class="form-label">Nombre del Cliente:</label>
+									<input type="text" id="nombre-cliente" name="nombre-cliente" class="form-control" required><br>
+							
+									<label for="telefono-cliente" class="form-label">Teléfono del Cliente:</label>
+									<input type="tel" id="telefono-cliente" name="telefono-cliente" class="form-control" required><br>
+							
+									<label for="email-cliente" class="form-label">Email del Cliente:</label>
+									<input type="email" id="email-cliente" name="email-cliente" class="form-control" required><br>
+							
+									<label for="nombre-contacto" class="form-label">Nombre del Contacto:</label>
+									<input type="text" id="nombre-contacto" name="nombre-contacto" class="form-control" required><br>
+							
+									<label for="telefono-contacto" class="form-label">Teléfono del Contacto:</label>
+									<input type="tel" id="telefono-contacto" name="telefono-contacto" class="form-control" required><br>
+							
+									<label for="email-contacto" class="form-label">Email del Contacto:</label>
+									<input type="email" id="email-contacto" name="email-contacto" class="form-control" required><br>
+							
+									<label for="idfiscal-cliente" class="form-label">ID Fiscal del Cliente:</label>
+									<input type="text" id="idfiscal-cliente" name="idfiscal-cliente" class="form-control" required><br>
+							
+									<label for="exampleFormControlTextarea1" class="form-label">Comentarios:</label>
+  									<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea><br>
+							
+									<button class="btn btn-primary" type="submit">Enviar</button>
+								</form>
+							
+								<script>
+									var client_id = "1274";  
+									var form_id = "ID_FORM_WEB";  
+								</script>
+								<script src="https://app.sistemaimpulsa.com/catchform.js"></script>
+							</div>
+						</div>
+					</div>
+				</div>					
 
 				<section class="medical-services p-relative overflow-hidden lazyload">
 					<div class="container">
