@@ -1,0 +1,12 @@
+{
+  "name": "instituciones-lineashospitalarias",
+  "version": "1.0.0",
+  "description": "Sitio web institucional de Líneas Hospitalarias",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Build completed'",
+    "start": "echo 'Starting server'"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

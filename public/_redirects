@@ -1,0 +1,21 @@
+# Redirects for SPA
+/*    /index.html   200
+
+# Headers para archivos estáticos
+/css/*
+  Cache-Control: public, max-age=31536000
+
+/js/*
+  Cache-Control: public, max-age=31536000
+
+/img/*
+  Cache-Control: public, max-age=31536000
+
+/vendor/*
+  Cache-Control: public, max-age=31536000
+
+# CORS headers
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block

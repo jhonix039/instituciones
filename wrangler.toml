@@ -1,0 +1,12 @@
+name = "instituciones-lineashospitalarias"
+compatibility_date = "2023-06-07"
+
+[build]
+command = ""
+cwd = "/"
+watch_dir = "/"
+
+[[build.upload]]
+format = "modules"
+dir = "/"
+main = "./index.html"
